@@ -1,24 +1,18 @@
-# README
+# BlogR
 
-This README would normally document whatever steps are necessary to get the
+This README would normally document steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+* Clone the Repo
 
-* Ruby version
+* Bundle install
 
-* System dependencies
+* Database creation & initialization
+    
+    rake db:create
+    rake db:migrate
 
-* Configuration
+* Serve
 
-* Database creation
+    rails s
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
