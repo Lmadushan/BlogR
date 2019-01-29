@@ -8,11 +8,12 @@ application up and running.
 * Bundle install
 
 * Database creation & initialization
-    
+
+```
     rake db:create
     rake db:migrate
-
+```
 * Serve
-
+```
     rails s
-
+```
