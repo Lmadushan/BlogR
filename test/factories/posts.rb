@@ -1,7 +1,7 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :post do
-    title "my post"
-    body "the awsome post"
+    title { Faker::Hipster.sentence }
+    body { Faker::Hipster.paragraph }
     association(:user)
   end
 end
